@@ -1,0 +1,12 @@
+<div class="beer-partial-box">
+
+    {{#each beersFromApi}}
+    <div class="beer-partial">
+        <a href="/beers/{{id}}" }}>{{name}}</a>
+        <img src={{image_url}}>
+        {{description}}
+        {{tagline}}
+    </div>
+    {{/each}}
+</div>
+</div>
